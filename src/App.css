@@ -145,11 +145,11 @@ body {
   font-size: 65px;
   line-height: 1;
   font-weight: black;
-  background: url(https://images.pexels.com/photos/29019485/pexels-photo-29019485.png);
+  background: url(https://i.pinimg.com/originals/95/98/58/959858f795cfaf37ad5e3b3ef46ba42e.jpg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: contain;
-  animation: example infinite 40s linear;
+  animation: example infinite 100s linear;
 }
 @keyframes example {
   from {
@@ -191,7 +191,10 @@ body {
   }
   .grid-view {
     font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: inline-block;
+  }
+  .card{
+    margin: 5px;
+    font-size: medium;
   }
 }
